@@ -1,39 +1,96 @@
 <!DOCTYPE html>
-<html class="h-100">
-  <head>
-    <title>Decklist Auto-Filler</title>
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          user-select: none;
-        }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-    </style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decklist Auto-Filler</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      box-sizing: border-box;
+      padding: 10px 10px auto;
+    }
 
-  </head>
+    h1 {
+      color: #333333;
+      text-align: center;
+      text-decoration: underline;
+    }
 
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-      </header>
+    h2 {
+      color: #333333;
+      text-align: left;
+    }
     
-      <main class="px-3">
-        <h1>Thank you!</h1>
-        <p class="lead">Thank you for installing the Decklist Auto-Filler extension! Use this tool to migrate your Yugioh decks from Duelingbook and EDOPro to tournament registration websites, saving you time in the process! Click <a href="/help/helppage.html" class="text-white">here</a> for more information on how to use it.
-        <p> If you encounter any bugs or want any features added, please contact me at <a href="mailto: ObjectOrientedCodeTalker@gmail.com" class="text-white">ObjectOrientedCodeTalker@gmail.com</a></p>
-      </main>
-    
+    h3 {
+      color: #333333;
+      text-align: left;
+    }
+
+    .background {
+      background-color: rgba(0, 255, 170, 0);
+      box-shadow: none;
+    }
+
+    .leftdivision {
+      float: left;
+      width: 48vw;
+      text-align: left;
+      padding: 10px 25px 10px 25px;
+    }
+
+    .rightdivision {
+      float: right;
+      width: 48vw;
+      text-align: left;
+      padding: 10px 25px 10px 25px;
+    }
+
+    .centerdivision {
+      padding: 10px 25px 10px 25px;
+    }
+
+    #guide-img {
+      width: 40vw;
+    }
+
+    #guide-vid {
+      width: 40vw;
+      height: 22vw;
+    }
+
+    div {
+      margin: auto auto 1.5vw;
+      width: 98vw;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      padding: 10px 10px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+      <h1>Thank you!</h1>
+      <div class="leftdivision">          
+          <p>Thank you for installing the Decklist Auto-Filler extension! Use this tool to migrate your Yugioh decks from Duelingbook and EDOPro to tournament registration websites, saving you time in the process!</p>
+          <h3>Guide:</h3>
+          <p>Click <a href="https://objectorientedcodetalker.github.io/decklistautofiller_webpages/help/help.html" class="text-white">here</a> for for more information on how to use the extension.</p>
+          <h3>Feedback:</h3>
+          <p>If you encounter any bugs or want any features added, please submit feedback <a href="https://objectorientedcodetalker.github.io/decklistautofiller_webpages/help/help.html" class="text-white">here</a>.</p>
+          <p>For further inquiries, please email <a href="mailto: ObjectOrientedCodeTalker@gmail.com" class="text-white">ObjectOrientedCodeTalker@gmail.com</a>.</p>
+        </div>
+      <div class="rightdivision"> 
+        <iframe id="guide-img" width="840" height="470" src="https://www.youtube.com/embed/V14j-9ZWNk4?si=2kfz835ceByS8MM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>  
       <footer class="mt-auto text-white-50">
-        <p>Created by <a href="mailto: ObjectOrientedCodeTalker@gmail.com" class="text-white">Object-Oriented Code Talker</a>.</p>
-      </footer>
-    </div>
-  </body>
+        <p>Created by <a href="https://github.com/ObjectOrientedCodeTalker" class="text-white">Object-Oriented Code Talker</a>.</p>
+      </footer>      
+  </div>
+</body>
 </html>
